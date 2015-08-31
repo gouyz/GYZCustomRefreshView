@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CFF41B21B93FC030011BF14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF41B11B93FC030011BF14 /* main.m */; };
+		5CFF41B51B93FC030011BF14 /* GYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF41B41B93FC030011BF14 /* GYZAppDelegate.m */; };
+		5CFF41B81B93FC030011BF14 /* GYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF41B71B93FC030011BF14 /* GYZViewController.m */; };
+		5CFF41BB1B93FC030011BF14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CFF41B91B93FC030011BF14 /* Main.storyboard */; };
+		5CFF41BD1B93FC030011BF14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFF41BC1B93FC030011BF14 /* Images.xcassets */; };
+		5CFF41C01B93FC030011BF14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CFF41BE1B93FC030011BF14 /* LaunchScreen.xib */; };
+		5CFF41CC1B93FC030011BF14 /* GYZCustomRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF41CB1B93FC030011BF14 /* GYZCustomRefreshTests.m */; };
+		5CFF41D81B93FFFC0011BF14 /* UIScrollView+GYZRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF41D71B93FFFC0011BF14 /* UIScrollView+GYZRefresh.m */; };
+		5CFF41DB1B9400A50011BF14 /* GYZRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF41DA1B9400A50011BF14 /* GYZRefreshBaseView.m */; };
+		5CFF41DE1B9401740011BF14 /* GYZRefreshCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF41DD1B9401740011BF14 /* GYZRefreshCircleView.m */; };
+		5CFF41E11B9402060011BF14 /* GYZSyncSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF41E01B9402060011BF14 /* GYZSyncSpinner.m */; };
+		5CFF41E41B941FFC0011BF14 /* GYZRefreshHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF41E31B941FFC0011BF14 /* GYZRefreshHeadView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CFF41C61B93FC030011BF14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CFF41A41B93FC030011BF14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CFF41AB1B93FC030011BF14;
+			remoteInfo = GYZCustomRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CFF41AC1B93FC030011BF14 /* GYZCustomRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYZCustomRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFF41B01B93FC030011BF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CFF41B11B93FC030011BF14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CFF41B31B93FC030011BF14 /* GYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYZAppDelegate.h; sourceTree = "<group>"; };
+		5CFF41B41B93FC030011BF14 /* GYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYZAppDelegate.m; sourceTree = "<group>"; };
+		5CFF41B61B93FC030011BF14 /* GYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYZViewController.h; sourceTree = "<group>"; };
+		5CFF41B71B93FC030011BF14 /* GYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYZViewController.m; sourceTree = "<group>"; };
+		5CFF41BA1B93FC030011BF14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CFF41BC1B93FC030011BF14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CFF41BF1B93FC030011BF14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5CFF41C51B93FC030011BF14 /* GYZCustomRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYZCustomRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFF41CA1B93FC030011BF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CFF41CB1B93FC030011BF14 /* GYZCustomRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYZCustomRefreshTests.m; sourceTree = "<group>"; };
+		5CFF41D61B93FFFC0011BF14 /* UIScrollView+GYZRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+GYZRefresh.h"; sourceTree = "<group>"; };
+		5CFF41D71B93FFFC0011BF14 /* UIScrollView+GYZRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+GYZRefresh.m"; sourceTree = "<group>"; };
+		5CFF41D91B9400A50011BF14 /* GYZRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYZRefreshBaseView.h; sourceTree = "<group>"; };
+		5CFF41DA1B9400A50011BF14 /* GYZRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYZRefreshBaseView.m; sourceTree = "<group>"; };
+		5CFF41DC1B9401740011BF14 /* GYZRefreshCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYZRefreshCircleView.h; sourceTree = "<group>"; };
+		5CFF41DD1B9401740011BF14 /* GYZRefreshCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYZRefreshCircleView.m; sourceTree = "<group>"; };
+		5CFF41DF1B9402060011BF14 /* GYZSyncSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYZSyncSpinner.h; sourceTree = "<group>"; };
+		5CFF41E01B9402060011BF14 /* GYZSyncSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYZSyncSpinner.m; sourceTree = "<group>"; };
+		5CFF41E21B941FFC0011BF14 /* GYZRefreshHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYZRefreshHeadView.h; sourceTree = "<group>"; };
+		5CFF41E31B941FFC0011BF14 /* GYZRefreshHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYZRefreshHeadView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CFF41A91B93FC030011BF14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFF41C21B93FC030011BF14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CFF41A31B93FC030011BF14 = {
+			isa = PBXGroup;
+			children = (
+				5CFF41D51B93FF5A0011BF14 /* refreshView */,
+				5CFF41AE1B93FC030011BF14 /* GYZCustomRefresh */,
+				5CFF41C81B93FC030011BF14 /* GYZCustomRefreshTests */,
+				5CFF41AD1B93FC030011BF14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CFF41AD1B93FC030011BF14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CFF41AC1B93FC030011BF14 /* GYZCustomRefresh.app */,
+				5CFF41C51B93FC030011BF14 /* GYZCustomRefreshTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CFF41AE1B93FC030011BF14 /* GYZCustomRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				5CFF41B31B93FC030011BF14 /* GYZAppDelegate.h */,
+				5CFF41B41B93FC030011BF14 /* GYZAppDelegate.m */,
+				5CFF41B61B93FC030011BF14 /* GYZViewController.h */,
+				5CFF41B71B93FC030011BF14 /* GYZViewController.m */,
+				5CFF41B91B93FC030011BF14 /* Main.storyboard */,
+				5CFF41BC1B93FC030011BF14 /* Images.xcassets */,
+				5CFF41BE1B93FC030011BF14 /* LaunchScreen.xib */,
+				5CFF41AF1B93FC030011BF14 /* Supporting Files */,
+			);
+			path = GYZCustomRefresh;
+			sourceTree = "<group>";
+		};
+		5CFF41AF1B93FC030011BF14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CFF41B01B93FC030011BF14 /* Info.plist */,
+				5CFF41B11B93FC030011BF14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CFF41C81B93FC030011BF14 /* GYZCustomRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CFF41CB1B93FC030011BF14 /* GYZCustomRefreshTests.m */,
+				5CFF41C91B93FC030011BF14 /* Supporting Files */,
+			);
+			path = GYZCustomRefreshTests;
+			sourceTree = "<group>";
+		};
+		5CFF41C91B93FC030011BF14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CFF41CA1B93FC030011BF14 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CFF41D51B93FF5A0011BF14 /* refreshView */ = {
+			isa = PBXGroup;
+			children = (
+				5CFF41D61B93FFFC0011BF14 /* UIScrollView+GYZRefresh.h */,
+				5CFF41D71B93FFFC0011BF14 /* UIScrollView+GYZRefresh.m */,
+				5CFF41D91B9400A50011BF14 /* GYZRefreshBaseView.h */,
+				5CFF41DA1B9400A50011BF14 /* GYZRefreshBaseView.m */,
+				5CFF41DC1B9401740011BF14 /* GYZRefreshCircleView.h */,
+				5CFF41DD1B9401740011BF14 /* GYZRefreshCircleView.m */,
+				5CFF41DF1B9402060011BF14 /* GYZSyncSpinner.h */,
+				5CFF41E01B9402060011BF14 /* GYZSyncSpinner.m */,
+				5CFF41E21B941FFC0011BF14 /* GYZRefreshHeadView.h */,
+				5CFF41E31B941FFC0011BF14 /* GYZRefreshHeadView.m */,
+			);
+			path = refreshView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CFF41AB1B93FC030011BF14 /* GYZCustomRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFF41CF1B93FC030011BF14 /* Build configuration list for PBXNativeTarget "GYZCustomRefresh" */;
+			buildPhases = (
+				5CFF41A81B93FC030011BF14 /* Sources */,
+				5CFF41A91B93FC030011BF14 /* Frameworks */,
+				5CFF41AA1B93FC030011BF14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYZCustomRefresh;
+			productName = GYZCustomRefresh;
+			productReference = 5CFF41AC1B93FC030011BF14 /* GYZCustomRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CFF41C41B93FC030011BF14 /* GYZCustomRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFF41D21B93FC030011BF14 /* Build configuration list for PBXNativeTarget "GYZCustomRefreshTests" */;
+			buildPhases = (
+				5CFF41C11B93FC030011BF14 /* Sources */,
+				5CFF41C21B93FC030011BF14 /* Frameworks */,
+				5CFF41C31B93FC030011BF14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CFF41C71B93FC030011BF14 /* PBXTargetDependency */,
+			);
+			name = GYZCustomRefreshTests;
+			productName = GYZCustomRefreshTests;
+			productReference = 5CFF41C51B93FC030011BF14 /* GYZCustomRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CFF41A41B93FC030011BF14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GYZ;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = gouyz;
+				TargetAttributes = {
+					5CFF41AB1B93FC030011BF14 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5CFF41C41B93FC030011BF14 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5CFF41AB1B93FC030011BF14;
+					};
+				};
+			};
+			buildConfigurationList = 5CFF41A71B93FC030011BF14 /* Build configuration list for PBXProject "GYZCustomRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CFF41A31B93FC030011BF14;
+			productRefGroup = 5CFF41AD1B93FC030011BF14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CFF41AB1B93FC030011BF14 /* GYZCustomRefresh */,
+				5CFF41C41B93FC030011BF14 /* GYZCustomRefreshTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CFF41AA1B93FC030011BF14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFF41BB1B93FC030011BF14 /* Main.storyboard in Resources */,
+				5CFF41C01B93FC030011BF14 /* LaunchScreen.xib in Resources */,
+				5CFF41BD1B93FC030011BF14 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFF41C31B93FC030011BF14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CFF41A81B93FC030011BF14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFF41DB1B9400A50011BF14 /* GYZRefreshBaseView.m in Sources */,
+				5CFF41D81B93FFFC0011BF14 /* UIScrollView+GYZRefresh.m in Sources */,
+				5CFF41B81B93FC030011BF14 /* GYZViewController.m in Sources */,
+				5CFF41E11B9402060011BF14 /* GYZSyncSpinner.m in Sources */,
+				5CFF41DE1B9401740011BF14 /* GYZRefreshCircleView.m in Sources */,
+				5CFF41E41B941FFC0011BF14 /* GYZRefreshHeadView.m in Sources */,
+				5CFF41B51B93FC030011BF14 /* GYZAppDelegate.m in Sources */,
+				5CFF41B21B93FC030011BF14 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFF41C11B93FC030011BF14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFF41CC1B93FC030011BF14 /* GYZCustomRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CFF41C71B93FC030011BF14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CFF41AB1B93FC030011BF14 /* GYZCustomRefresh */;
+			targetProxy = 5CFF41C61B93FC030011BF14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CFF41B91B93FC030011BF14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CFF41BA1B93FC030011BF14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CFF41BE1B93FC030011BF14 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CFF41BF1B93FC030011BF14 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CFF41CD1B93FC030011BF14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CFF41CE1B93FC030011BF14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CFF41D01B93FC030011BF14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GYZCustomRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CFF41D11B93FC030011BF14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GYZCustomRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CFF41D31B93FC030011BF14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GYZCustomRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYZCustomRefresh.app/GYZCustomRefresh";
+			};
+			name = Debug;
+		};
+		5CFF41D41B93FC030011BF14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GYZCustomRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYZCustomRefresh.app/GYZCustomRefresh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CFF41A71B93FC030011BF14 /* Build configuration list for PBXProject "GYZCustomRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFF41CD1B93FC030011BF14 /* Debug */,
+				5CFF41CE1B93FC030011BF14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CFF41CF1B93FC030011BF14 /* Build configuration list for PBXNativeTarget "GYZCustomRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFF41D01B93FC030011BF14 /* Debug */,
+				5CFF41D11B93FC030011BF14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CFF41D21B93FC030011BF14 /* Build configuration list for PBXNativeTarget "GYZCustomRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFF41D31B93FC030011BF14 /* Debug */,
+				5CFF41D41B93FC030011BF14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CFF41A41B93FC030011BF14 /* Project object */;
+}
